@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "750449285297",
+    "firebase_url": "https://geeksfarmlastfm.firebaseio.com",
+    "project_id": "geeksfarmlastfm",
+    "storage_bucket": "geeksfarmlastfm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750449285297:android:bf2f9aac9ce2b4f2",
+        "android_client_info": {
+          "package_name": "com.gelaraulia.geeksfarmlastfm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750449285297-qt1sci8hr1k9eanagk8fmusp58bfvq12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gelaraulia.geeksfarmlastfm",
+            "certificate_hash": "51378d02270ae0920fea2cd806539a246f8abacb"
+          }
+        },
+        {
+          "client_id": "750449285297-lgg6hrt1cik49oifnkupqak2lj6umu2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg46qRZuf5OmuHtGZs8SbYu4mg2xqpYJk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750449285297-lgg6hrt1cik49oifnkupqak2lj6umu2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
