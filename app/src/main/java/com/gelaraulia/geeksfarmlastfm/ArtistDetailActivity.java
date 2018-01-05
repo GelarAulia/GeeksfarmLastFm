@@ -120,7 +120,7 @@ public class ArtistDetailActivity extends AppCompatActivity {
                 tv_name.setText(response.body().getArtist().getName());
 //                tv_listener.setText(response.body().getArtist().getStats().getListeners());
                 NumberFormat nf = NumberFormat.getInstance();
-                String numFormated = nf.format(response.body().getArtist().getStats().getListeners());
+                String numFormated = nf.format(Integer.parseInt(response.body().getArtist().getStats().getListeners()));
                 tv_listener.setText(numFormated);
 
                 tv_url.setText(response.body().getArtist().getUrl());

@@ -110,11 +110,11 @@ public class AlbumDetailActivity extends AppCompatActivity {
                 tv_artist.setText(artist);
 //                tv_listen.setText(response.body().getAlbum().getListeners());
                 NumberFormat nf = NumberFormat.getInstance();
-                String numFormated = nf.format(response.body().getAlbum().getListeners());
+                String numFormated = nf.format(Integer.parseInt(response.body().getAlbum().getListeners()));
                 tv_listen.setText(numFormated);
 
 //                tv_count.setText(response.body().getAlbum().getPlaycount());
-                numFormated = nf.format(response.body().getAlbum().getPlaycount());
+                numFormated = nf.format(Integer.parseInt(response.body().getAlbum().getPlaycount()));
                 tv_count.setText(numFormated);
 
                 for(Track track : response.body().getAlbum().getTracks().getTrack()){

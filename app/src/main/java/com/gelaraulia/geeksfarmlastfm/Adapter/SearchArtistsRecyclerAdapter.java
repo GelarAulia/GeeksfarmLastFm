@@ -47,7 +47,7 @@ public class SearchArtistsRecyclerAdapter extends RecyclerView.Adapter<SearchArt
             holder.tv_artistNull.setText("");
         }else{
             Picasso.with(mContext).load("@drawable/ic_launcher_background").into(holder.iv_imageHolder);
-            holder.tv_artistNull.setText("Artist not available");
+            holder.tv_artistNull.setText("Poster not available");
         }
         if(arrName.get(position) != ""){
             holder.tv_nameHolder.setText(arrName.get(position));
